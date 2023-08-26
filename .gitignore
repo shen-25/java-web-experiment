@@ -1,0 +1,17 @@
+Servers/
+manager/
+.metadata
+.git
+jd/build/
+jd/target/
+jd/.settings/
+jd/.project
+jd/.classpath
+shiyan1/target/
+shiyan1/.settings/
+shiyan1/.project
+shiyan1/.classpath
+shiyan2/target/
+shiyan2/.settings/
+shiyan2/.project
+shiyan2/.classpath

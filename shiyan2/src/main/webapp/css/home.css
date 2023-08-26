@@ -1,0 +1,23 @@
+.welcome {
+    background-color: #fff;
+}
+.content {
+    position: relative;
+    bottom: 40px;
+}
+.sub-title{
+    font-size: 40px;
+    line-height: 42px;
+    color: #333;
+    margin-bottom: 10px;
+}
+.title{
+    font-size: 40px;
+    line-height: 62px;
+    color: #409eff;
+}
+.desc{
+    text-align: left;
+    font-size: 28px;
+    color: #999;
+}

@@ -1,0 +1,221 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #fefefe;
+}
+
+a {
+    text-decoration: none;
+}
+
+.bar {
+    width: 990px;
+    margin: 0 auto;
+    height: 100px;
+    background-color: #ffffff;
+}
+
+.bar .logo {
+    position: relative;
+    width: 180px;
+    margin: 10px;
+    height: 60px;
+    float: left;
+}
+.tishixinxi {
+    height: 28px;
+    width: 349px;
+    background-color: #ffebeb;
+    color: #e4393c;
+    text-align: center;
+    font-size: 12px;
+    line-height: 28px;
+}
+.bar .logo-title {
+    float: left;
+    height: 45px;
+    padding-top: 45px;
+    font-size: 26px;
+    color: rgb(38, 38, 38);
+}
+
+.bar .zhanghao_link {
+    font-size: 16px;
+    float: right;
+    margin-top: 55px;
+    color: #999;
+}
+
+.a_link {
+    color:#f02222;
+    width: 36px;
+}
+
+.a_link:hover {
+    color:#e4393c;
+}
+
+.dibu {
+    height: 130px;
+}
+
+.lianjie {
+    height: 20px;
+    width: 647px;
+    font: 14px Arial, Verdana;
+    color: #666;
+    margin: 8px auto;
+}
+
+.lianjie a {
+    display: inline;
+    text-align: center;
+    padding: 10px;
+}
+
+.lianjie a:hover {
+    color: #db221d;
+}
+
+.copyright {
+    width: 274px;
+    margin-top: 30px;
+    font: 12px Arial, Verdana;
+    color: #666;
+    height: 23px;
+    margin: 0 auto;
+}
+
+.login_form {
+    margin: 0 auto;
+    position: relative;
+    z-index: 4;
+    background: #ffffff;
+    overflow: visible;
+    width:  457px;
+    height: 450px;
+}
+
+.login_form .login-tab {
+    right: 0;
+    margin-top: 35px;
+    height: 65px;
+    font-family: "microsoft yahei";
+    font-size: 29px;
+    font-weight: 700;
+    color:#f02222;
+    text-align: center;
+    border-bottom: 1px solid #f4f4f4;
+    margin-bottom: 40px;
+}
+
+.login_form .item1 {
+    /* border: 1px solid #bdbdbd; */
+    margin-left: 20px;
+    margin-right: 20px;
+    height: 42px;
+    position: relative;
+    margin-bottom: 26px;
+}
+
+.login_form .item2 {
+    /* border: 1px solid #bdbdbd; */
+    margin-left: 20px;
+    margin-right: 20px;
+    height: 43px;
+    position: relative;
+    margin-bottom: 26px;
+}
+
+.name-label {
+    position: absolute;
+    z-index: 3;
+    top: 0;
+    left: 0;
+    width: 44px;
+    height: 43px;
+    border-right: 1px solid #bdbdbd;
+    background: url(./image/人头像抽象的.png)no-repeat;
+    background-position: 2px 4px;
+    background-color: #f3f3f3;
+}
+
+.name-label2 {
+    position: absolute;
+    z-index: 3;
+    top: 0;
+    left: 0;
+    width: 44px;
+    height: 43px;
+    border-right: 1px solid #bdbdbd;
+    background-position: 75px 6px;
+    background-color: #f3f3f3;
+}
+
+.itxt {
+    width: 261px;
+    height: 40px;
+    padding-left: 44px;
+    margin-right: 10px;
+}
+
+.login-btn {
+
+    height: 43px;
+    width: 306px;
+    margin-right: 22px;
+    margin-left: 22px;
+    margin-top: 10px;
+    position: relative;
+    background-color: #3370ff;
+    text-align: center;
+    color: #ffffff;
+    font-size: 20px;
+    font-family: 'Microsoft YaHei';
+    line-height: 39px;
+}
+
+.login-btn:hover {
+    background-color: #82a7fc;
+}
+
+a {
+    text-decoration: none;
+    color: #ffffff;
+}
+.inputdiv {
+    display: flex;
+    border: 1px solid #D2D2D2 !important;
+    background-color: #fff;
+    height: 48px;
+    line-height: 48px;
+    padding: 0px 19px;
+    border-radius: 8px;
+}
+.layui-form-item{
+    margin-bottom: 0px;
+    width: 523px;
+}
+.error-msg{
+    height: 17px;
+    margin: 3px 0px 6px 0px;
+}
+.layui-icon{
+    margin-right: 19px;
+}
+#errorName{
+    color: red;
+    font-size: 14px;
+}
+.layui-input, .layui-textarea {
+    display: block;
+    width: 100%;
+    height: 100%;
+    padding-left: 10px;
+}
+#errorPass{
+    color: red;
+    font-size: 14px;
+}

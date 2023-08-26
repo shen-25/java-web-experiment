@@ -1,0 +1,116 @@
+*{
+  padding: 0px;
+  margin: 0px;
+  border: 0px;
+}
+
+.basic-layout{
+  position: relative;
+    height: 100%;
+ 
+}
+.basic-layout .nav-side{
+  position: fixed;
+  width: 200px;
+  height: 100%;
+  background-color: #001529;
+  color: #fff;
+  overflow-y: auto;
+  transition: width .5s;
+}
+
+.basic-layout .content-right{
+  margin-left: 200px;
+    height: 100%;
+
+}
+
+.basic-layout .content-right .nav-top{
+  height: 50px;
+  line-height: 50px;
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid #ddd;
+  padding: 0  20px;
+
+}
+
+.basic-layout .content-right  .wrapper{
+  background-color: #eef0f3;
+  padding: 15px 18px;
+  height: calc(100vh - 81px);
+  
+}
+.basic-layout .content-right  .wrapper .main-home{
+  background-color: #ffffff;
+  width: 100%;
+  height: 100%;
+}
+
+.basic-layout .nav-side .log{
+  display: flex;
+  align-items: center;
+  font-size: 18px;
+  height: 50px;
+  margin-bottom: 10px;
+}
+.basic-layout .nav-side .log img{
+  margin: 0 16px;
+  width: 32px;
+  height: 32px;
+  border-radius: 10px;
+}
+.basic-layout .nav-side .layui-nav-tree .icon-margin-right{
+  font-size: 16px;
+  line-height: 16px;
+ margin-right: 8px;
+}
+.basic-layout .nav-side .layui-nav-tree .dd-nav-child{
+   
+   padding-left: 30px;
+   
+}
+
+.basic-layout  .content-right .nav-top .nav-left{
+   display: flex;
+   align-items: center;
+
+}
+
+.basic-layout .content-right .nav-top .nav-left .meun-fold{
+margin-right: 15px;
+font-size: 18px;
+}
+.basic-layout .content-right .nav-top .user .layui-nav-add{
+ background-color: #fff;
+ color:#000;
+ position: relative;
+ align-items: center;
+
+}
+.basic-layout .content-right .nav-top .user{
+ display: flex;
+}
+.basic-layout .content-right .nav-top .user ul li .nickName{
+    cursor: pointer;
+    color: #409eff;
+    height: 50px ;
+ line-height: 50px;
+  
+}
+.basic-layout .content-right .nav-top .user ul li  .nav-child-dd{
+text-align: center;
+}
+.main-page{
+  height: 100%;
+  width: 100%;
+}
+
+.padding-left-dd{
+    padding-left: 18px;
+}
+
+.role ul li  .user-email-logout{
+    position: absolute;
+    box-sizing: border-box;
+}
